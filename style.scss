@@ -19,6 +19,21 @@
     justify-content: center;
     gap: 9vh;
 }
+
+.lista {
+    width: 20vh;
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 1vh;
+    background-color: #f9f9f95e;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+    color: white;
+
+    &:hover {
+    // Efeito quando o mouse está sobre o item
+    transform: scale(110%);}
+}
 .card {
     border: 2px solid #cccccc50;
     border-radius: 10px;
@@ -38,7 +53,7 @@
 
     img {
         width: 100%;
-        height: auto;
+        height: 70%;
         border-radius: 1vh;
     }
     button {
@@ -50,7 +65,8 @@
         border-radius: 5px;
         cursor: pointer;
         font-size: 14px;
-        margin-top: 10px;  
+        margin-top: 2vh; 
+         
     }
 
 }
